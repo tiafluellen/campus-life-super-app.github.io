@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Life Super App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6fa;
+            color: #333;
+        }
+        header {
+            background: #4a68ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: white;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: #4a68ff;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #e8edff;
+        }
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #ddd;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Campus Life Super App</h1>
+        <p>Your all‑in‑one hub for student life</p>
+    </header>
+
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#events">Events</a>
+        <a href="#directory">Directory</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Stay Connected. Stay Organized. Stay Ahead.</h1>
+        <p>The Campus Life Super App makes college life easier by putting everything you need in one place.</p>
+    </section>
+
+    <section id="features" class="section">
+        <h2>App Features</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>📅 Class Schedule</h3>
+                <p>Track your courses, professors, and daily routines all in one place.</p>
+            </div>
+            <div class="card">
+                <h3>🚌 Shuttle Tracker</h3>
+                <p>Live bus locations and arrival times so you're never late.</p>
+            </div>
+            <div class="card">
+                <h3>🍽 Dining Hall Menus</h3>
+                <p>See what's being served today and check nutrition info.</p>
+            </div>
+            <div class="card">
+                <h3>🎉 Campus Events</h3>
+                <p>Find clubs, events, and activities happening around campus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>🏀 Basketball Game – Friday @ 7PM</li>
+            <li>🎨 Art Club Workshop – Saturday @ 2PM</li>
+            <li>🎤 Open Mic Night – Wednesday @ 8PM</li>
+        </ul>
+    </section>
+
+    <section id="directory" class="section">
+        <h2>Campus Directory</h2>
+        <p>Find departments, offices, and student organizations with ease.</p>
+    </section>
+
+    <footer id="contact">
+        <p>Campus Life Super App © 2025</p>
+        <p>Contact: support@campuslifeapp.com</p>
+    </footer>
+</body>
+</html>
